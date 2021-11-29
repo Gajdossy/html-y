@@ -1,0 +1,99 @@
+body {
+    margin:0;
+    background-color: aliceblue;
+    font-family: 'raleway',sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+header {
+    background: url('../html\ y/food.jpg');
+    color:white;
+    font-size: 80px;
+    font-weight:700;
+    padding: 80px 60px;
+    text-shadow: 0 0 20px rgba(0,0,0,.8);
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.content::after,
+footer::after {
+
+    content:"";
+    clear:both;
+    display: table;
+}
+nav {
+    width:25%;
+    float:left;
+}
+nav ul {
+    margin:0;
+    padding:30px;
+    list-style-type: none;
+}
+nav ul li {
+    border-bottom: 1px dashed rgba(0,0,0,.4);
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    padding:15px 0;
+    display:block;
+}
+nav a:hover {
+    padding:15px;
+    background: rgba(0,0,0,.1);
+}
+main {
+    width:75%;
+    background:white;
+    float:left;
+    padding:30px;
+}
+main p {
+    line-height: 23px;
+}
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.float-right{
+    float:right;
+    margin: 0 0 20px 20px; 
+}
+footer {
+    padding:20px 0;
+}
+footer a {
+    color:black;
+}
+footer .left {
+    float:left;
+}
+footer .right {
+    float:right;
+}
+
+h1 {
+    margin-top:0;
+    
+}
+h1 span {
+    font-size:50px;
+    
+    background: seagreen;
+    color:seashell;
+    -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-left: 10px solid seagreen;
+  border-right: 10px solid seagreen;
+  border-bottom: 7px solid seagreen;
+  line-height: 75px;
+
+}
+
